@@ -106,12 +106,12 @@
 // // 9. Create a date object of the starting date of this Ramadan and alert the number of days past since 1st Ramadan?Note: 1st Ramadan was on June 18, 2015
 
 // var radman2015 = new Date("06/18/2015");
-// var ramdan2022 = new Date("04/02/2022");
-// var difference = ramdan2022.getTime() - radman2015.getTime();
+// var ramdan2025 = new Date("04/02/2025");
+// var difference = ramdan2025.getTime() - radman2015.getTime();
 // var difference = difference / (1000 * 3600 * 24);
 // console.log(difference + "Days have passed since 1st Ramdan 2015");
 
-// //. Write a program that displays in your browser the seconds that elapsed between the reference date and the  beginning of 2015.
+// 10. Write a program that displays in your browser the seconds that elapsed between the reference date and the  beginning of 2015.
 
 // var begningdate = new Date(01 /01 / 2015);
 // var refernceDate = new Date();
@@ -122,16 +122,16 @@
 // // 11. Create a Date object for the current date and time.  Extract the hours, reset the date object an hour ahead and 
 // // finally display the date object in your browser
 
-// var v = new Date();
-// console.log("curren date : " + v);
-// v.setHours(v.getHours() - 1);
-// console.log("after 1 hour it was " + v);
+// var cd = new Date();
+// console.log("curren date : " + cd);
+// cd.setHours(cd.getHours() - 1);
+// console.log("after 1 hour it was " + cd);
 
-// // . Write a program that creates a date object and show the date in an alert box that is reset to 100 years back?
+// 12 . Write a program that creates a date object and show the date in an alert box that is reset to 100 years back?
 
-// var v = new Date();
-// v.setFullYear(v.getFullYear() - 100);
-// alert("100 years back it was " + v)
+// var date = new Date();
+// date.setFullYear(date.getFullYear() - 100);
+// alert("100 years back it was " + date)
 
 // // 13. Write a program to ask the user about his age. Calculate and show his birth year in your browser.
 
